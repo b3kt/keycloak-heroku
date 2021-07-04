@@ -1,6 +1,6 @@
 FROM quay.io/keycloak/keycloak-x
 
-COPY my-providers/ /opt/jboss/keycloak/providers/
+#COPY my-providers/ /opt/jboss/keycloak/providers/
 
 WORKDIR /opt/jboss/keycloak
 
